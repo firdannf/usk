@@ -33,15 +33,17 @@
                     </li>
                     @endif
 
-                    @if(Auth::user()->role=='masteradmin' or Auth::user()->role=='toko')
+                    @if(  Auth::user()->role=='toko')
                     <li class="nav-item">
                         <a class="nav-link" href="/produk/tampil">Barang</a>
                     </li>
                     @endif
-
+                    
+                    @if(  Auth::user()->role=='siswa') or  Auth::user()->role=='toko'
                     <li class="nav-item">
                         <a class="nav-link" href="/pembelian/tampil">Transaksi</a>
                     </li>
+                    @endif
                 </ul>
                 <ul class="navbar-nav">
                     <li>

@@ -8,8 +8,6 @@
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
-    <link href="/assets/img/favicon.png" rel="icon">
-    <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> <!-- Vendor CSS Files -->
     <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
@@ -75,7 +73,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up">welcome to <span style="font-style: italic">Taman<span style="color: rgb(0, 90, 0)">Siswa</span></span>2 Jakarta</h1>
+                    <h1 data-aos="fade-up">welcome to koperasi <span style="font-style: italic">Taman<span style="color: rgb(0, 90, 0)">Siswa</span></span>2 Jakarta</h1>
                     <h2 data-aos="fade-up" data-aos-delay="400">Menjadi Generasi Emas Indonesia Di TamanSiswa 2 Jakarta</h2>
                     <div data-aos="fade-up" data-aos-delay="800">
                         
@@ -112,9 +110,9 @@
 
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
                     @foreach ($barang as $p)
-                    <div class="col-lg-4 col-md-6 portfolio-item {{$p->nama}}">
+                    <div class="col-lg-3 col-md-4 portfolio-item {{$p->nama}}">
                         <div class="portfolio-wrap">
-                            <img src="assets/img/{{$p->foto}}" class="img-fluid" alt="" width="400px" height="600px">
+                            <img src="assets/img/{{$p->foto}}" class="img-fluid" alt="" width="300px" height="600px">
                             <div class="portfolio-info">
                                 <h4>Name : {{$p->nama}}</h4>
                                 <div class="portfolio-links">
